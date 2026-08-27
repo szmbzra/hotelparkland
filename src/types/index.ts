@@ -20,7 +20,7 @@ export interface RoomType {
   /** Floor area as written on the card, e.g. "34 Sqm". */
   size: string;
   /** Maximum adults the room sleeps. */
-  adults: number;
+  adults: string;
   /** Bed configuration as written on the card, e.g. "1 King Bed". */
   beds: string;
   /** Guest rating out of 5, shown as stars on the listing card. */

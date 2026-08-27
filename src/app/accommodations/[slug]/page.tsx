@@ -9,7 +9,10 @@ import {
   Baby,
   Check,
   Coffee,
+  DoorOpen,
   Maximize2,
+  Sparkles,
+  ShowerHead,
   Tv,
   User,
   Wifi,
@@ -29,6 +32,12 @@ const ROOM_FEATURES: Record<string, { icon: LucideIcon; label: string }> = {
   breakfast: { icon: Coffee, label: "Breakfast Included" },
   ac: { icon: Wind, label: "Air Condition" },
   bath: { icon: Bath, label: "Ensuite Bath" },
+  shower: { icon: ShowerHead, label: "Hot Shower" },
+  toiletries: { icon: Sparkles, label: "Complimentary Toiletries" },
+  hairdryer: { icon: Wind, label: "Hairdryer" },
+  "coffee-tea": { icon: Coffee, label: "Coffee and Tea Maker" },
+  towels: { icon: Bath, label: "Fresh Towels" },
+  balcony: { icon: DoorOpen, label: "Private Balcony" },
 };
 
 export function generateStaticParams() {
@@ -118,6 +127,20 @@ export default async function RoomDetailPage({
                 {(room.longDescription ?? [room.description]).map((para, i) => (
                   <p key={i}>{para}</p>
                 ))}
+                <ul className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+                                  <li className="flex items-center gap-3 text-luxury-muted border border-hairline rounded-xl px-4 py-3.5">
+                  <User className="w-4 h-4 brown-btn shrink-0" strokeWidth={1.5} aria-hidden />
+                  Adults: {room.adults}
+                </li>
+                <li className="flex items-center gap-3 text-luxury-muted border border-hairline rounded-xl px-4 py-3.5">
+                  <Maximize2 className="w-4 h-4 brown-btn shrink-0" strokeWidth={1.5} aria-hidden />
+                  Size: {room.size}
+                </li>
+                <li className="flex items-center gap-3 text-luxury-muted border border-hairline rounded-xl px-4 py-3.5">
+                  <BedDouble className="w-4 h-4 brown-btn shrink-0" strokeWidth={1.5} aria-hidden />
+                  Bed Type: {room.beds}
+                </li>
+                </ul>
               </div>
 
               <h2 className="luxury-section-title text-xl lg:text-2xl mt-12 mb-6">Room Amenities</h2>
@@ -136,18 +159,7 @@ export default async function RoomDetailPage({
                     </li>
                   );
                 })}
-                <li className="flex items-center gap-3 text-luxury-muted border border-hairline rounded-xl px-4 py-3.5">
-                  <User className="w-4 h-4 brown-btn shrink-0" strokeWidth={1.5} aria-hidden />
-                  Adults: {room.adults}
-                </li>
-                <li className="flex items-center gap-3 text-luxury-muted border border-hairline rounded-xl px-4 py-3.5">
-                  <Maximize2 className="w-4 h-4 brown-btn shrink-0" strokeWidth={1.5} aria-hidden />
-                  Size: {room.size}
-                </li>
-                <li className="flex items-center gap-3 text-luxury-muted border border-hairline rounded-xl px-4 py-3.5">
-                  <BedDouble className="w-4 h-4 brown-btn shrink-0" strokeWidth={1.5} aria-hidden />
-                  Bed Type: {room.beds}
-                </li>
+
               </ul>
 
               <div className="grid sm:grid-cols-2 gap-8 mt-12">
@@ -187,15 +199,19 @@ export default async function RoomDetailPage({
                 <ul className="space-y-3 text-luxury-muted leading-relaxed">
                   <li className="flex gap-3">
                     <Check className="w-4 h-4 brown-btn shrink-0 mt-0.5" strokeWidth={1.5} aria-hidden />
-                    <span>Children are welcome — kids stay free when using existing bedding.</span>
+                    <span>Below 5 years: Complimentary stay.</span>
                   </li>
                   <li className="flex gap-3">
                     <Check className="w-4 h-4 brown-btn shrink-0 mt-0.5" strokeWidth={1.5} aria-hidden />
-                    <span>Children may not be eligible for complimentary breakfast.</span>
+                    <span>5–11 years: 50% discount on meals (sharing existing bed).</span>
                   </li>
                   <li className="flex gap-3">
                     <Check className="w-4 h-4 brown-btn shrink-0 mt-0.5" strokeWidth={1.5} aria-hidden />
-                    <span>Rollaway / extra beds are available for $10 per day, subject to availability.</span>
+                    <span>12 years and above: Full adult charges.</span>
+                  </li>
+                  <li className="flex gap-3">
+                    <Check className="w-4 h-4 brown-btn shrink-0 mt-0.5" strokeWidth={1.5} aria-hidden />
+                    <span>Extra bed available upon request, with additional charge.</span>
                   </li>
                 </ul>
               </div>

@@ -7,7 +7,10 @@ import {
   ArrowRight,
   Bath,
   Coffee,
+  DoorOpen,
   Maximize2,
+  Sparkles,
+  ShowerHead,
   Tv,
   User,
   Wifi,
@@ -29,6 +32,12 @@ const ROOM_FEATURES: Record<string, { icon: LucideIcon; label: string }> = {
   breakfast: { icon: Coffee, label: "Breakfast included" },
   ac: { icon: Wind, label: "Air conditioning" },
   bath: { icon: Bath, label: "Ensuite bath" },
+  shower: { icon: ShowerHead, label: "Hot shower" },
+  toiletries: { icon: Sparkles, label: "Complimentary toiletries" },
+  hairdryer: { icon: Wind, label: "Hairdryer" },
+  "coffee-tea": { icon: Coffee, label: "Coffee and tea maker" },
+  towels: { icon: Bath, label: "Fresh towels" },
+  balcony: { icon: DoorOpen, label: "Private balcony" },
 };
 
 export default function RoomsSection() {

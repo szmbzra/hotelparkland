@@ -19,6 +19,10 @@ const securityHeaders = [
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   // output: 'export',
+  // Allows the dev server to be reached over the LAN (e.g. 192.168.18.53:3000).
+  // Without this, Next.js blocks cross-origin requests for /_next/* assets in dev,
+  // so the page renders but React never hydrates (toggles/sliders silently do nothing).
+  allowedDevOrigins: ['192.168.18.53'],
   images: {
     formats: ["image/avif", "image/webp"],
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],

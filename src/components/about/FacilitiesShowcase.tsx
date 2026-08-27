@@ -1,13 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
-import { BedDouble, ShieldCheck, Waves, UtensilsCrossed, type LucideIcon } from "lucide-react";
+import { BedDouble, Landmark, HeartPulse, ChefHat, type LucideIcon } from "lucide-react";
 import { aboutPage } from "@/data/data";
 
 const ICONS: Record<string, LucideIcon> = {
   bed: BedDouble,
-  "shield-check": ShieldCheck,
-  waves: Waves,
-  utensils: UtensilsCrossed,
+  "Landmark": Landmark,
+  "HeartPulse": HeartPulse,
+  "ChefHat": ChefHat,
 };
 
 export default function FacilitiesShowcase() {
