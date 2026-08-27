@@ -315,8 +315,8 @@ export const nearby: NearbyItem[] = [
 export const exploreLinks = [
   { label: "Rooms & Suites", href: "/accommodations" },
   { label: "Dining & Bar", href: "/dining" },
-  { label: "Wellness & Leisure", href: "/wellness" },
-  { label: "Experiences", href: "/experiences" },
+  { label: "Wellness & Leisure", href: "#" },
+  { label: "Experiences", href: "/experiences-destination" },
 ];
 export const quickLinks = [
   { label: "Book Your Stay", href: "#" },
