@@ -158,7 +158,7 @@ export const rooms: RoomType[] = [
     description:
       "Spacious and refined, with a separate living lounge and a private terrace overlooking the resort grounds. A soaking tub and rain shower add a touch of everyday indulgence.",
     longDescription: [
-      "Designed for guests seeking expansive space and quiet refinement, the Executive Parkland Suite features a distinct living lounge separate from the main bedroom. Soft lighting, rich upholstery, and contemporary design elements create an inviting setting for work, relaxation, or intimate gatherings.",
+      "Designed for guests seeking expansive space and quiet refinement, the Suite Room features a distinct living lounge separate from the main bedroom. Soft lighting, rich upholstery, and contemporary design elements create an inviting setting for work, relaxation, or intimate gatherings.",
       "Relax on your spacious private terrace overlooking the resort grounds, or recharge in an upgraded en-suite bathroom featuring a deep soaking tub and rain shower. Every detail is curated to deliver an elevated, stress-free stay.",
     ],
     pricePerNight: 120,
@@ -185,9 +185,9 @@ export const rooms: RoomType[] = [
     image: "/img/rooms/room-villa.jpg",
     images: ["/img/rooms/room-villa.jpg", "/img/pool.jpg", "/img/garden.jpg"],
     description:
-      "Hotel Parkland's flagship suite, offering panoramic wilderness views and a private sun deck. A marble bathroom and custom furnishings complete this ultimate sanctuary.",
+      "Hotel Parkland's Presidential suite, offering panoramic wilderness views and a private sun deck. A marble bathroom and custom furnishings complete this ultimate sanctuary.",
     longDescription: [
-      "The pinnacle of luxury at Hotel Parkland, the Presidential Suite offers an expansive architectural footprint with sweeping panoramic views of the surrounding wilderness. Featuring a grand living area, custom furniture, and bespoke artwork, this flagship suite redefines high-end hospitality in Chitwan.",
+      "The pinnacle of luxury at Hotel Parkland, the Presidential Suite offers an expansive architectural footprint with sweeping panoramic views of the surrounding wilderness. Featuring a grand living area, custom furniture, and bespoke artwork, this Presidential suite redefines high-end hospitality in Chitwan.",
       "Enjoy complete seclusion on your broad private sun deck, complemented by an oversized marble bathroom with deluxe fixtures and exclusive amenities. It is an extraordinary sanctuary crafted for ultimate comfort, privacy, and distinction.",
     ],
     pricePerNight: 180,
@@ -313,17 +313,17 @@ export const nearby: NearbyItem[] = [
 ];
 
 export const exploreLinks = [
-  { label: "Rooms & Suites", href: "" },
-  { label: "Dining & Bar", href: "" },
-  { label: "Wellness & Leisure", href: "" },
-  { label: "Experiences", href: "" },
+  { label: "Rooms & Suites", href: "/accommodations" },
+  { label: "Dining & Bar", href: "/dining" },
+  { label: "Wellness & Leisure", href: "/wellness" },
+  { label: "Experiences", href: "/experiences" },
 ];
 export const quickLinks = [
-  { label: "Book Your Stay", href: "" },
+  { label: "Book Your Stay", href: "#" },
   { label: "Special Offers", href: "/offers" },
-  { label: "Getting Here", href: "" },
-  { label: "Privacy Policy", href: "" },
-  { label: "Terms & Conditions", href: "" },
+  { label: "Getting Here", href: "#" },
+  { label: "Privacy Policy", href: "#" },
+  { label: "Terms & Conditions", href: "#" },
 ];
 
 export const amenities: AmenityItem[] = [
@@ -442,7 +442,7 @@ export const faqPage = {
     {
       question: "What are the check-in and check-out times?",
       answer:
-        "Check-in is from 12:00 PM and check-out is by 10:00 AM. Let us know your arrival time in advance and we'll do our best to accommodate an early check-in or late check-out, subject to availability.",
+        "Check-in is from 02:00 PM and check-out is by 12:00 PM. Let us know your arrival time in advance and we'll do our best to accommodate an early check-in or late check-out, subject to availability.",
     },
     {
       question: "How do I book a room, and do you take online bookings?",
@@ -462,7 +462,7 @@ export const faqPage = {
     {
       question: "What amenities does the hotel offer?",
       answer:
-        "Hotel Parkland has a swimming pool, restaurant and bar, free WiFi, gardens, a conference hall, room service, bicycle rental and 24-hour security across our 32 rooms.",
+        "Hotel Parkland has a swimming pool, restaurant and bar, free WiFi, gardens, a conference hall, room service, bicycle rental and 24-hour security across our 120 rooms.",
     },
     {
       question: "Is Hotel Parkland suitable for families and children?",
