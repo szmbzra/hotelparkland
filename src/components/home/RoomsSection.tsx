@@ -101,7 +101,7 @@ Discover beautifully appointed rooms and suites designed to provide an elegant s
 
                   {/* Feature icons — stacked down the right edge, under the badge */}
                   <ul className="absolute top-20 right-5 flex flex-col gap-2">
-                    {room.features.map((key, i) => {
+                    {room.features.slice(0, 3).map((key, i) => {
                       const feature = ROOM_FEATURES[key];
                       if (!feature) return null;
                       const Icon = feature.icon;
