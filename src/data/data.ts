@@ -58,7 +58,7 @@ export const about = {
   paragraphs: [
     "Welcome to Hotel Parkland, a premium destination in Sauraha designed for guests seeking comfort, sophistication and authentic Chitwan experiences.From elegantly appointed accommodations and exceptional dining to leisure facilities and curated wildlife adventures, every element is thoughtfully designed to make your stay memorable.Whether you are travelling for leisure, a family escape, a romantic getaway, a corporate retreat or an adventure into the wild, Hotel Parkland brings together the best of contemporary hospitality and the natural charm of Chitwan.",
   ],
-  image: "/img/garden.jpg",
+  image: "/img/parkland-img.jpg",
   stats: [
     { value: "1987", label: "Est. Since" },
     { value: "120", label: "Rooms & Suites" },
@@ -85,7 +85,7 @@ export const aboutPage = {
     ],
     signature: "Hotel Parkland",
     signatureRole: "The Parkland Family",
-    image: "/img/garden.jpg",
+    image: "/img/parkland-img.jpg",
     imageOverlap: "/img/activities/elephant-bathing.jpg",
   },
   facilities: {
@@ -182,7 +182,7 @@ export const rooms: RoomType[] = [
   {
     slug: "presidential-room",
     name: "Presidential Room",
-    image: "/img/rooms/room-villa.jpg",
+    image: "/img/rooms/presidential.jpg",
     images: ["/img/rooms/room-villa.jpg", "/img/pool.jpg", "/img/garden.jpg"],
     description:
       "Hotel Parkland's Presidential suite, offering panoramic wilderness views and a private sun deck. A marble bathroom and custom furnishings complete this ultimate sanctuary.",
@@ -313,14 +313,14 @@ export const nearby: NearbyItem[] = [
 ];
 
 export const exploreLinks = [
-  { label: "Rooms & Suites", href: "/accommodations" },
-  { label: "Dining & Bar", href: "/dining" },
+  { label: "Rooms & Suites", href: "#" },
+  { label: "Dining & Bar", href: "#" },
   { label: "Wellness & Leisure", href: "#" },
-  { label: "Experiences", href: "/experiences-destination" },
+  { label: "Experiences", href: "#" },
 ];
 export const quickLinks = [
   { label: "Book Your Stay", href: "#" },
-  { label: "Special Offers", href: "/offers" },
+  { label: "Special Offers", href: "#" },
   { label: "Getting Here", href: "#" },
   { label: "Privacy Policy", href: "#" },
   { label: "Terms & Conditions", href: "#" },

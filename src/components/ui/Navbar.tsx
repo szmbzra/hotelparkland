@@ -46,10 +46,11 @@ export default function Navbar() {
           }`}
         >
                 <Image
-              src={isTransparentPage ? ( isScrolled ? "/img/logo2.png" : "/img/logo.png") : "/img/logo2.png"}
+              // src={isTransparentPage ? ( isScrolled ? "/img/logo.png" : "/img/logo.png") : "/img/logo.png"}
+              src="/img/logo.png"
               alt="Company Logo"
-              width={200}
-              height={200}
+              width={100}
+              height={100}
               priority
                unoptimized
               />
@@ -64,12 +65,12 @@ export default function Navbar() {
           >
             {contact.phone}
           </a>
-          <Link href="#book" className="hidden sm:inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
-            Book Now
+          <Link href="ipoform.pdf" className="hidden sm:inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
+           Right Share Form
           </Link>
           {/* Menu lives in the off-canvas drawer at every breakpoint — eight
               items with long labels won't fit inline without wrapping. */}
-          <button
+          {/* <button
             className={`p-2 -mr-2 rounded-full cursor-pointer transition-colors duration-200 hover:text-amber-200 ${
               isSolid
                 ? "text-luxury-charcoal hover:bg-luxury-charcoal/5"
@@ -81,7 +82,7 @@ export default function Navbar() {
             aria-controls="mobile-menu"
           >
             <Menu className="w-6 h-6" />
-          </button>
+          </button> */}
         </div>
       </div>
 
