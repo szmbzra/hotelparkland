@@ -137,7 +137,7 @@ Discover beautifully appointed rooms and suites designed to provide an elegant s
                   <p className="text-luxury-muted  mt-4 leading-relaxed">{room.description}</p>
 
                   <Link
-                    href="#contact"
+                    href="#"
                     className="inline-flex items-center gap-2 brown-btn luxury-label text-[11px] mt-auto pt-5 hover:gap-3 transition-all"
                   >
                     Book Now <ArrowRight className="w-4 h-4" />

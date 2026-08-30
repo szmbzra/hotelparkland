@@ -7,7 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 /** Delay before the promo popup opens on homepage load, in milliseconds. */
-const OPEN_DELAY_MS = 2500;
+const OPEN_DELAY_MS = 2000;
 
 /**
  * Promotional popup shown automatically on the homepage. Opens on every
@@ -67,7 +67,7 @@ export default function HomePromoPopup() {
 
         <div className="relative aspect-4/5">
                   <p className=" mt-3 leading-relaxed container md:text-2xl  text-center mb-2.5 font-bold">
-           Right Share IPO Form
+           Right Share Form
           </p>
             <Link href="ipoform.pdf" className="block h-full w-full"><Image
             src="/img/ipoform.jpg"

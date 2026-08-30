@@ -349,27 +349,27 @@ export const trustBadges = [
 export const testimonials: Testimonial[] = [
   {
     quote:
-      "Waking up to see an elephant at the window of your room. Amazing feeling for a citygal like me! Food served in the hotel are simply yummlicious. Very polite staff. Our tour guide at the hotel Mr Hari, is indeed very knowledgable, he knows simple mandarin and speaks very good english. Only thing to improve is the hair dryer. So bring your own hair dryer if you need it.",
-    author: "Peinidaochuzhou",
-    source: "Singapore",
+      "While visiting Chitwan National Park we stayed at the Parkland Hotel. The grounds a quite spacious and pretty. The rooms are OK. There is an indoor dining room and an outdoor patio. We had one meal at a table just out in the grassy , treed area....very nich. There is also a fairly large swimming pool with a waterfall. The food was OK..generally typical Nepali fare.",
+    author: "Herb_Silverman",
+    source: "Los Angeles, California",
   },
   {
     quote:
-      "Staff were very helpful and the rooms were clean and comfortable. It's amazing to wake up with elephants outside the bedroom window and be so close to such a wide array of wildlife. We had an amazing guide in Bishnu who taught us so much and is clearly so passionate about the flora and fauna he lives amongst. Hope to be back",
-    author: "Roving443250",
-    source: "Verified Guest",
+      "This hotel was a good 3 night stay for me (middle night in a Jungle Tower).  It is a pleasant facility down a lane off the main road (but walkable to town) with rooms with outdoor corridors situated around a large courtyard.  I am a solo traveler and felt comfortable and safe.  My room was on the second floor (top) and was quiet and beds were comfortably firm and clean.",
+    author: "Joanne A",
+    source: "Upstate New York, New York",
   },
   {
     quote:
-      "We have been to Chitwan National Park for family visit and stayed at Hotel Parkland. We find it best location for family and leisure holidays in Chitwan National Park. We highly recommend the nice garden, swimming pool.",
-    author: "Spahari",
-    source: "Kathmandu",
+      "Calm and wonderful ambience here. Away from the hustle and bustle of the city, and only ten minutes walk to the national park. The staff is very eager to please their guests and very engaged in the wildlife that surrounds them. Especially our guide, Babu, did an excellent job. He was extremely interested in showing us every little detail of our surroundings and had an interest in teaching us about animal/bird names (in both English, Nepalese and Latin). It was clear to see that for Babu, this is not just a job, but a great interest for him to spread his knowledge to others, but also to learn more himself for every tour. We were lucky to have him.",
+    author: "Birgit S",
+    source: "Hvidovre, Denmark",
   },
   {
     quote:
-      "Very comfortable rooms and friendly, helpful staff. Hotel has nice Garden, tranquil and peaceful place. We quite enjoyed food. (Mostly Nepali, Indian, Chinese kitchen). Our guide Bishnu was simply amazing, very knowledgeable.",
-    author: "Rusowasp",
-    source: "Tbilisi",
+      "We recently went on the 2 nights, 3 days Chitwan Safari package. Given that the price includes all transport, accommodation, food and activities it is excellent value! Plus the grounds of the hotel are beautiful and the staff are exceptionally helpful.The best part of our stay was our guide, Babu. Not only is Babu extremely knowledgeable about the area and the wildlife, he was a passion for his work that is infectious. Plus he is absolutely hilarious. If you are planning to do the Chitwan Safari, make sure you ask for Babu as your guide!",
+    author: "Daniel",
+    source: "Sydney, Australia",
   },
 ];
 
