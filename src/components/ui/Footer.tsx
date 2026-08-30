@@ -110,7 +110,7 @@ export default function Footer() {
           </div>
 
           <div className="flex items-center gap-3">
-            {socials.map(({ href, label, Icon, external }) => (
+            {socials.slice(0,1).map(({ href, label, Icon, external }) => (
               <a
                 key={label}
                 href={href}
@@ -127,7 +127,7 @@ export default function Footer() {
 
 
 
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 py-10 ">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 py-10 hidden">
                 <div>
                 <p className="luxury-label text-luxury-charcoal mb-5">Explore</p>
                 <ul className="space-y-3">

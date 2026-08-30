@@ -40,7 +40,9 @@ export default function ContactSection() {
                   <Smartphone className="w-4 h-4 shrink-0" /> {office.mobile.number} ({office.mobile.name})
                 </li>
                 <li className="flex items-center gap-3">
-                  <Mail className="w-4 h-4 shrink-0" /> {office.email}
+                  <Mail className="w-4 h-4 shrink-0" /> {}
+                 <a href={`mailto:${office.email}`}> {office.email}
+          </a>
                 </li>
               </ul>
             </div>
@@ -48,10 +50,10 @@ export default function ContactSection() {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-14 animate-fade-in-up delay-200">
-          <a href={`tel:${contact.phoneE164}`} className="luxury-btn luxury-btn-accent">
-            Call To Book
+          <a href="ipoform.pdf" className="luxury-btn luxury-btn-accent" target="_blank" rel="noopener noreferrer">
+           RIGHT SHARE FORM
           </a>
-          <a href={`mailto:${contact.email}`} className="luxury-btn">
+          <a href={`tel:${contact.phoneE164}`} className="luxury-btn">
             Send An Inquiry
           </a>
         </div>

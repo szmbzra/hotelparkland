@@ -66,14 +66,14 @@ export default function Navbar() {
             {contact.phone}
           </a> <span className={`${!isScrolled ? "text-white" : ""} hidden md:inline`}>|</span>
           <a
-            href={`tel:${contact.email}`}
+            href={`mailto:${contact.email}`}
             className={`hidden md:inline-flex text-sm transition-colors  ${
               isSolid ? "text-luxury-charcoal" : "text-white"
             } hidden md:inline-flex`}
           >
             {contact.email}
           </a>
-          <Link href="ipoform.pdf" className="inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
+          <Link href="ipoform.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
            <Download /> RIGHT SHARE FORM
           </Link>
           {/* Menu lives in the off-canvas drawer at every breakpoint — eight

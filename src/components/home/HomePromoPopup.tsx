@@ -81,11 +81,11 @@ export default function HomePromoPopup() {
         <div className="p-6 text-center">
                     <p className="text-sm leading-relaxed mb-3">
   Kindly download the application form and submit the filled form to our official Email:
-  <a href="mailto:info@hotelparkland.com">info@hotelparkland.com</a>.
+  <a href="mailto:info@hotelparkland.com">info@hotelparkland.com</a>
 
                     </p>
           <Link
-            href="ipoform.pdf"
+            href="ipoform.pdf" target="_blank" rel="noopener noreferrer"
             onClick={() => setIsOpen(false)}
             className="luxury-btn  inline-flex cursor-pointer bg-(--color-primary-green) text-white">
             Download FORM <Download className="w-4 h-4" />

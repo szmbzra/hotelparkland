@@ -221,7 +221,7 @@ export const dining = {
 {title:"Restaurant", description:"Contemporary dining featuring local and international cuisine."},
 {title:"Bar", description:"Unwind with signature drinks and a relaxed evening ambience."},
   ],
-  image: "/img/dining-hp.jpg",
+  image: "/img/hp-dining2.jpg",
 };
 
 export const leisure = {
@@ -231,7 +231,7 @@ export const leisure = {
     "Spend an unhurried afternoon by the swimming pool or wander through our lush gardens, surrounded by indigenous trees, flowering shrubs, and the gentle presence of birds and butterflies.",
     "A tranquil retreat from the excitement of Chitwan, where nature invites you to slow down, reconnect, and simply be.",
   ],
-  image: "/img/wellness.jpg",
+  image: "/img/pool-hp.jpg",
 };
 
 export const activities: ActivityItem[] = [

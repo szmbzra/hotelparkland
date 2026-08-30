@@ -51,7 +51,7 @@ export const chitwanOffice = {
   address: "Sauraha, Chitwan National Park, Nepal",
   phones: ["+977-056-580344"],
   mobile: { name: "Anjan", number: "+977-9845043068" },
-  email: "parkland@mail.com.np",
+  email: "info@hotelparkland.com",
 } as const;
 
 export const address = {
