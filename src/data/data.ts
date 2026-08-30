@@ -125,7 +125,7 @@ export const rooms: RoomType[] = [
   {
     slug: "deluxe-room",
     name: "Deluxe Room",
-    image: "/img/rooms/room-deluxe.jpg",
+    image: "/img/rooms/deluxe.jpg",
     images: ["/img/rooms/room-deluxe.jpg", "/img/garden.jpg", "/img/pool.jpg"],
     description:
       "A tranquil garden retreat with natural timber accents and a private balcony overlooking lush greenery. Premium bedding and a spa-inspired bathroom make every stay effortlessly restful.",
@@ -153,7 +153,7 @@ export const rooms: RoomType[] = [
   {
     slug: "suite-room",
     name: "Suite Room",
-    image: "/img/rooms/room-premier.jpg",
+    image: "/img/rooms/suite.jpg",
     images: ["/img/rooms/room-premier.jpg", "/img/garden.jpg", "/img/dining.jpg"],
     description:
       "Spacious and refined, with a separate living lounge and a private terrace overlooking the resort grounds. A soaking tub and rain shower add a touch of everyday indulgence.",
@@ -182,7 +182,7 @@ export const rooms: RoomType[] = [
   {
     slug: "presidential-room",
     name: "Presidential Room",
-    image: "/img/rooms/presidential.jpg",
+    image: "/img/rooms/presidential-hp.jpg",
     images: ["/img/rooms/room-villa.jpg", "/img/pool.jpg", "/img/garden.jpg"],
     description:
       "Hotel Parkland's Presidential suite, offering panoramic wilderness views and a private sun deck. A marble bathroom and custom furnishings complete this ultimate sanctuary.",
@@ -221,7 +221,7 @@ export const dining = {
 {title:"Restaurant", description:"Contemporary dining featuring local and international cuisine."},
 {title:"Bar", description:"Unwind with signature drinks and a relaxed evening ambience."},
   ],
-  image: "/img/dining.jpg",
+  image: "/img/dining-hp.jpg",
 };
 
 export const leisure = {
@@ -231,7 +231,7 @@ export const leisure = {
     "Spend an unhurried afternoon by the swimming pool or wander through our lush gardens, surrounded by indigenous trees, flowering shrubs, and the gentle presence of birds and butterflies.",
     "A tranquil retreat from the excitement of Chitwan, where nature invites you to slow down, reconnect, and simply be.",
   ],
-  image: "/img/pool.jpg",
+  image: "/img/wellness.jpg",
 };
 
 export const activities: ActivityItem[] = [
@@ -374,12 +374,12 @@ export const testimonials: Testimonial[] = [
 ];
 
 export const gallery = [
-  { src: "/img/garden.jpg", alt: "Mature gardens at Hotel Parkland" },
-  { src: "/img/pool.jpg", alt: "Swimming pool surrounded by gardens" },
-  { src: "/img/dining.jpg", alt: "Outdoor dining terrace" },
-  { src: "/img/activities/elephant-bathing.jpg", alt: "Elephant bathing in the river" },
-  { src: "/img/rooms/room-deluxe.jpg", alt: "Deluxe Garden Room interior" },
-  { src: "/img/activities/canoe.jpg", alt: "Dugout canoe ride on the river" },
+  { src: "/img/gallery-hp3.jpg", alt: "Mature gardens at Hotel Parkland" },
+  { src: "/img/gallery-hp1.jpg", alt: "Swimming pool surrounded by gardens" },
+  { src: "/img/gallery-hp2.jpg", alt: "Outdoor dining terrace" },
+  { src: "/img/gallery-hp.jpg", alt: "Elephant bathing in the river" },
+  { src: "/img/gallery-hp4.jpg", alt: "Deluxe Garden Room interior" },
+  { src: "/img/gallery-hp5.jpg", alt: "Dugout canoe ride on the river" },
 ];
 
 /**

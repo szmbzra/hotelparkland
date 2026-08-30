@@ -15,7 +15,7 @@ import HomePromoPopup from "@/components/home/HomePromoPopup";
 export default function Home() {
   return (
     <main id="main-content" className="flex flex-col min-h-screen">
-      {/* <HomePromoPopup /> */}
+      <HomePromoPopup />
       {/* <Hero /> */}
       <VideoSection />
       <AboutSection />

@@ -53,7 +53,7 @@ export default function AboutSection() {
           </div>
           {/* floating stat chip instead of the old offset square outline */}
           <div className="hidden md:flex absolute -bottom-7 -left-7 flex-col items-center justify-center w-32 h-32 rounded-full bg-white border border-hairline shadow-[0_18px_50px_-24px_rgba(36,36,32,0.35)]">
-            <span className="luxury-hero-title text-2xl leading-none">1987</span>
+            <span className="text-2xl leading-none">1987</span>
             <span className="luxury-label text-[9px] text-luxury-muted mt-2">Established</span>
           </div>
         </div>

@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import { ArrowRight, X } from "lucide-react";
+import { Download, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -66,31 +66,32 @@ export default function HomePromoPopup() {
         </button>
 
         <div className="relative aspect-4/5">
-          <Image
-            src="/img/pool.jpg"
+                  <p className=" mt-3 leading-relaxed container md:text-2xl  text-center mb-2.5 font-bold">
+           Right Share IPO Form
+          </p>
+            <Link href="ipoform.pdf" className="block h-full w-full"><Image
+            src="/img/ipoform.jpg"
             alt="Hotel Parkland"
             fill
             sizes="(max-width: 640px) 100vw, 384px"
-            className="object-cover"
-          />
+            className="object-cover relative!"
+          /></Link>
         </div>
 
         <div className="p-6 text-center">
-          <p className="luxury-label text-gold-text mb-2">Limited Time</p>
-          <h2 id="home-promo-title" className="luxury-section-title text-xl text-luxury-charcoal">
-            Discover Hotel Parkland
-          </h2>
-          <p className="text-sm text-luxury-muted mt-3 leading-relaxed">
-            Seasonal dining events and stay packages, running for a limited time.
-          </p>
+                    <p className="text-sm leading-relaxed mb-3">
+  Kindly download the application form and submit the filled form to our official Email:
+  <a href="mailto:info@hotelparkland.com">info@hotelparkland.com</a>.
+
+                    </p>
           <Link
-            href="/offers"
+            href="ipoform.pdf"
             onClick={() => setIsOpen(false)}
-            className="luxury-btn mt-6 inline-flex cursor-pointer bg-(--color-primary-green) text-white"
-          >
-            View Offers <ArrowRight className="w-4 h-4" />
+            className="luxury-btn  inline-flex cursor-pointer bg-(--color-primary-green) text-white">
+            Download FORM <Download className="w-4 h-4" />
           </Link>
         </div>
+
       </div>
     </div>,
     document.body

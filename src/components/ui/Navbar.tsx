@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu } from "lucide-react";
+import { Menu, Download } from "lucide-react";
 import MobileMenu from "./MobileMenu";
 import { navItems } from "@/data/data";
 import { contact } from "@/config/site";
@@ -66,7 +66,7 @@ export default function Navbar() {
             {contact.phone}
           </a>
           <Link href="ipoform.pdf" className="hidden sm:inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
-           Right Share Form
+           <Download /> RIGHT SHARE FORM
           </Link>
           {/* Menu lives in the off-canvas drawer at every breakpoint — eight
               items with long labels won't fit inline without wrapping. */}
