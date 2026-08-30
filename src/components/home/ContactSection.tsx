@@ -40,9 +40,8 @@ export default function ContactSection() {
                   <Smartphone className="w-4 h-4 shrink-0" /> {office.mobile.number} ({office.mobile.name})
                 </li>
                 <li className="flex items-center gap-3">
-                  <Mail className="w-4 h-4 shrink-0" /> {}
-                 <a href={`mailto:${office.email}`}> {office.email}
-          </a>
+                  <Mail className="w-4 h-4 shrink-0" />
+                 <a href={`mailto:${office.email}`}> {office.email} </a>
                 </li>
               </ul>
             </div>
