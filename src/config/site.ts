@@ -30,9 +30,9 @@ export const site = {
 } as const;
 
 export const contact = {
-  phone: "+977-9841229970",
-  phoneE164: "+9779841229970",
-  whatsapp: "9779841229970",
+  phone: "+9779713748543",
+  phoneE164: "+9779713748543",
+  whatsapp: "+9779713748543",
   email: "parkland@mail.com.np",
 } as const;
 
@@ -41,7 +41,7 @@ export const kathmanduOffice = {
   label: "Kathmandu Office",
   address: "Citron Gardens, Thamel, Kathmandu, Nepal",
   phones: ["+977-01-4701888", "+977-01-4701887"],
-  mobile: { name: "Biken", number: "+977-9841229970" },
+  mobile: { name: "Biken", number: "+977-9713748543" },
   email: "parkland@mail.com.np",
 } as const;
 
@@ -50,7 +50,7 @@ export const chitwanOffice = {
   label: "Chitwan Office",
   address: "Sauraha, Chitwan National Park, Nepal",
   phones: ["+977-056-580344"],
-  mobile: { name: "Anjan", number: "+977-9845043068" },
+  mobile: { name: "Anjan", number: "+977-9713748542" },
   email: "info@hotelparkland.com",
 } as const;
 
