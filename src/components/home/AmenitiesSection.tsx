@@ -52,7 +52,7 @@ export default function AmenitiesSection() {
             <p className="text-luxury-muted mt-5 leading-relaxed">
               From seamless connectivity to effortless exploration, every detail is thoughtfully taken care of — so you can simply relax and enjoy your time in Chitwan.
             </p>
-            <a href="#" className="luxury-btn luxury-btn-accent mt-8">
+            <a href="#" className="luxury-btn luxury-btn-accent mt-8 hidden">
               View All
             </a>
           </div>
