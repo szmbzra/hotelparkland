@@ -52,7 +52,7 @@ export default function ContactSection() {
           <a href="ipoform.pdf" className="luxury-btn luxury-btn-accent" target="_blank" rel="noopener noreferrer">
            RIGHT SHARE FORM
           </a>
-          <a href={`tel:${contact.phoneE164}`} className="luxury-btn">
+          <a href={`mailto:${contact.email}`} className="luxury-btn">
             Send An Inquiry
           </a>
         </div>

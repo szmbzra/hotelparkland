@@ -81,7 +81,7 @@ export default function HomePromoPopup() {
         <div className="p-6 text-center">
                     <p className="text-sm leading-relaxed mb-3">
   Kindly download the application form and submit the filled form to our official Email:
-  <a href="mailto:info@hotelparkland.com">info@hotelparkland.com</a>
+  <a href="mailto:parkland@mail.com.np">parkland@mail.com.np</a>
 
                     </p>
           <Link
