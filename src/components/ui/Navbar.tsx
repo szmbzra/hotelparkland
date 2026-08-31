@@ -73,12 +73,12 @@ export default function Navbar() {
           >
             {contact.email}
           </a>
-          <Link href="ipoform.pdf" target="_blank" rel="noopener noreferrer" className="inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
+          <Link href="ipoform.pdf" target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
            <Download /> RIGHT SHARE FORM
           </Link>
           {/* Menu lives in the off-canvas drawer at every breakpoint — eight
               items with long labels won't fit inline without wrapping. */}
-          {/* <button
+          <button
             className={`p-2 -mr-2 rounded-full cursor-pointer transition-colors duration-200 hover:text-amber-200 ${
               isSolid
                 ? "text-luxury-charcoal hover:bg-luxury-charcoal/5"
@@ -90,7 +90,7 @@ export default function Navbar() {
             aria-controls="mobile-menu"
           >
             <Menu className="w-6 h-6" />
-          </button> */}
+          </button>
         </div>
       </div>
 
