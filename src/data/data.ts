@@ -60,7 +60,7 @@ export const about = {
   ],
   image: "/img/parkland-img.jpg",
   stats: [
-    { value: "1987", label: "Est. Since" },
+    { value: "32", label: "Rooms on Operation" },
     { value: "120", label: "Rooms & Suites" },
     { value: "10 Min", label: "To Sauraha Centre" },
   ],
