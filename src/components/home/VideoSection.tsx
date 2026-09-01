@@ -29,11 +29,11 @@ export default function VideoSection() {
       {hero.subtitle}
     </p>
 
-    {/* <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 animate-fade-in-up delay-300 mb-14">
+    <div className="mt-10 flex flex-col sm:flex-row items-center gap-4 animate-fade-in-up delay-300 mb-14">
       <Link href="#book" className="luxury-btn luxury-btn-solid">
           Explore our Rooms
       </Link>
-    </div> */}
+    </div>
   </div>
 </section>
   );

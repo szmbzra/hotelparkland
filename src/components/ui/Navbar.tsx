@@ -74,7 +74,7 @@ export default function Navbar() {
             {contact.email}
           </a>
           <Link href="/"  className="hidden md:inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
-           <Download /> BOOK NOW
+          BOOK NOW
           </Link>
           {/* Menu lives in the off-canvas drawer at every breakpoint — eight
               items with long labels won't fit inline without wrapping. */}
