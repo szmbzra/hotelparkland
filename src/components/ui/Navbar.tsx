@@ -73,8 +73,8 @@ export default function Navbar() {
           >
             {contact.email}
           </a>
-          <Link href="ipoform.pdf" target="_blank" rel="noopener noreferrer" className="hidden md:inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
-           <Download /> RIGHT SHARE FORM
+          <Link href="/"  className="hidden md:inline-flex luxury-btn luxury-btn-solid !py-3 !px-6">
+           <Download /> BOOK NOW
           </Link>
           {/* Menu lives in the off-canvas drawer at every breakpoint — eight
               items with long labels won't fit inline without wrapping. */}
