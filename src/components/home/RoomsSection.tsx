@@ -94,7 +94,7 @@ Discover beautifully appointed rooms and suites designed to provide an elegant s
                   {/* Rate badge — top-right corner of the photo */}
                   <p className="absolute top-5 right-5 bg-white/95 backdrop-blur-sm rounded-xl px-4 py-2 shadow-[0_10px_30px_-16px_rgba(36,36,32,0.7)]">
                     <span className=" text-lg text-luxury-charcoal">
-                      ${room.pricePerNight}
+                      ${room.pricePerNight} / Night
                     </span>
                     {/* <span className="luxury-label text-[10px] text-luxury-muted ml-1.5">Coming Soon</span> */}
                   </p>
